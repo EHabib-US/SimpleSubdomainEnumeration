@@ -13,7 +13,7 @@ The script:
 
 Usage
 -----
-./recon.sh example.com
+./SubdomainEnum.sh example.com
 
 Directory Structure
 -------------------
