@@ -1,4 +1,4 @@
-Description
+SimpleSubdomainEnumeration
 -----------
 This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning, labs, CTFs, and lightweight recon workflows.
 
