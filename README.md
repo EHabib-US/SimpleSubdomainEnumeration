@@ -32,7 +32,8 @@ Notes
 - This script appends results to files; rerunning it without cleanup may cause duplicates
 - HTTPS probing is limited to port 443
 - The Amass section is optional and may take significant time depending on scope
+- You may have to run 'chmod +x' on the shell file after downloading it
 
 Intended Use
 ------------
-Educational purposes, labs, CTF environments, and controlled security testing only. Ensure you have permission before running reconnaissance against any target.
+Educational purposes, labs, CTF environments, and controlled security testing only.
