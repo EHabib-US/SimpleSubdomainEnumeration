@@ -1,7 +1,6 @@
 <img width="914" height="443" alt="image" src="https://github.com/user-attachments/assets/d97ecc57-9a31-4cf8-9a72-5034a079e228" />
 
-SimpleSubdomainEnumeration
------------
+# SimpleSubdomainEnumeration
 This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning penetration testing, labs, CTFs, and certifications.
 
 The script:
@@ -13,14 +12,17 @@ The script:
 
 Usage
 -----
+<pre>
 ./SubdomainEnum.sh example.com
-
+</pre>
 Directory Structure
 -------------------
+<pre>
 example.com/
 └── recon/
-    ├── final.txt   # All discovered subdomains
-    └── alive.txt   # Subdomains responding on HTTPS
+    ├── final.txt    # All discovered subdomains
+    └── alive.txt    # Subdomains responding on HTTPS
+</pre>
 
 Requirements
 ------------
