@@ -2,13 +2,13 @@
 
 SimpleSubdomainEnumeration
 -----------
-This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning, labs, CTFs, and lightweight recon workflows.
+This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning penetration testing, labs, CTFs, and certifications.
 
 The script:
 - Creates a directory structure for the target domain
 - Enumerates subdomains using assetfinder
 - Filters and stores discovered subdomains
-- Probes which subdomains are alive over HTTPS (port 443)
+- Probes which subdomains are alive over HTTPS/port 443 (modifiable)
 - Saves results to files for later use
 
 Usage
