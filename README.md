@@ -1,3 +1,5 @@
+<img width="914" height="443" alt="image" src="https://github.com/user-attachments/assets/d97ecc57-9a31-4cf8-9a72-5034a079e228" />
+
 SimpleSubdomainEnumeration
 -----------
 This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning, labs, CTFs, and lightweight recon workflows.
