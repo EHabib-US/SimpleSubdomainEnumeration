@@ -1,11 +1,24 @@
 #!/bin/bash
 
-url=$1
+# ASCII Logo
+cat << "EOF"
+   _____ _____ ______ 
+  / ____/ ____|  ____|
+ | (___| (___ | |__   
+  \___ \\___ \|  __|  
+  ____) |___) | |____ 
+ |_____/_____/|______|
+                      
+ SimpleSubdomainEnumeration v1.0
+ https://github.com/EHabib-US/
+EOF
 
+echo ""
+
+url=$1
 if [ ! -d "$url" ];then
 	mkdir $url
 fi
-
 if [ ! -d "$url/recon" ];then
 	mkdir $url/recon
 fi
