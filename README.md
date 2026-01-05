@@ -1,5 +1,3 @@
-Recon Script README
-
 Description
 -----------
 This is a simple Bash reconnaissance script used to automate basic subdomain enumeration and live host discovery for a given domain. It is intended for learning, labs, CTFs, and lightweight recon workflows.
@@ -27,8 +25,7 @@ Requirements
 - bash
 - assetfinder
 - httprobe
-(Optional)
-- amass (commented out by default)
+- amass (optional, commented out by default)
 
 Notes
 -----
